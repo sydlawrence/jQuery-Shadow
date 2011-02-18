@@ -1,9 +1,18 @@
+/**
+ * @preserve Copyright 2011 Syd Lawrence ( www.sydlawrence.com ).
+ * Version: 0.1
+ *
+ * Licensed under MIT and GPLv2.
+ *
+ * For use with jquery.shadow plugin
+ *
+ * Adapted from Nicholas Gallagher's CSS drop shadows without images demo
+ * http://nicolasgallagher.com/css-drop-shadows-without-images/demo/
+ *
+ */
+
 /* Shared styles */
         
-.jquery-shadow {
-	position:relative;
-}
-
 .jquery-shadow {
 	position:relative;
 	-webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 60px rgba(0, 0, 0, 0.1) inset;
@@ -21,7 +30,6 @@
 
 
 /* Lifted corners */
-
 
 .jquery-shadow-lifted:before,
 .jquery-shadow-lifted:after { 

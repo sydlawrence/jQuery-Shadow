@@ -1,0 +1,6 @@
+Adapted from Nicholas Gallagher's CSS drop shadows without images demo
+http://nicolasgallagher.com/css-drop-shadows-without-images/demo/
+
+The purpose of this is to make it easier, as you don't need to remember the specific css class names.
+
+However, this is extremely bad practice... and should not be used for a production site, but feel free to use it for prototyping....

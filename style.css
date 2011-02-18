@@ -1,9 +1,42 @@
+.ribbon {
+  background-color: #1a1a1e;
+  overflow: hidden;
+  /* top left corner */
+  position: absolute;
+  font-size:16px;  
+  left: -4.2em;
+  top: 3em;
+  /* 45 deg ccw rotation */
+  -moz-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  /* shadow */
+  -moz-box-shadow: 0 0 1em #888;
+  -webkit-box-shadow: 0 0 1em #888;
+}
+.ribbon a {
+  border: 1px solid #3a3a3e;
+  color: #fff;
+  display: block;
+  font: bold 100% 'Helvetiva Neue', Helvetica, Arial, sans-serif;
+  margin: 0.05em 0 0.075em 0;
+  padding: 0.5em 3.5em;
+  text-align: center;
+  text-decoration: none;
+  /* shadow */
+  text-shadow: 0 0 0.5em #444;
+}
+
+.ribbon a:hover {
+	color:#346AA8;
+}
+
+
 body {
     padding:20px 0 30px;
     font:12px/1.5 Arial, sans-serif;
     text-align:center;
     color:#333;
-    background:#FAF0D9;
+    background:#f3f3f1;
 }
 
 a {
@@ -23,7 +56,6 @@ a:active {
     width:600px;
     padding:20px;
     margin:0 auto;
-    background:#FAF0D9;
 }
 
 .container:after {
